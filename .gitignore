@@ -1,0 +1,76 @@
+## 기본 .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sin.docstates
+
+## Windows 관련
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Visual Studio 관련
+.vs/
+.vscode/
+*.ncb
+*.log
+*.sdf
+*.opensdf
+*.cachefile
+*.dbmdl
+*.pdb
+
+## VS Code 설정 무시 (선택적)
+.history/
+*.code-workspace
+
+## ASP.NET Core 관련
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+## NuGet 관련
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+
+## Test 결과
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Publish 관련
+publish/
+*.pubxml
+*.Publish.xml
+
+## Local 환경 설정 파일
+launchSettings.json
+
+## 기타
+*.tmp
+*.bak
+*.log
+*.vspscc
+*.vssscc
+
+## WPF 관련 XAML Designer 캐시
+Generated_Code/
+*.g.cs
+*.g.i.cs
+
+## Resharper, dotCover, SonarLint 등 툴
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+# JetBrain Rider
+.idea/
+*.sln.iml
