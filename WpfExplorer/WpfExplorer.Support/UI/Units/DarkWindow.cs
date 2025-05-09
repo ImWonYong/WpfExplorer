@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Jamesnet.Wpf.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -44,7 +45,7 @@ namespace WpfExplorer.Support.UI.Units
     ///     <MyNamespace:DarkWindow/>
     ///
     /// </summary>
-    public class DarkWindow : Control
+    public class DarkWindow : JamesWindow
     {
         static DarkWindow()
         {

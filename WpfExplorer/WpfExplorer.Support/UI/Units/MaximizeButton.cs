@@ -1,5 +1,4 @@
-﻿using Jamesnet.Wpf.Controls;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -42,14 +41,14 @@ namespace WpfExplorer.Support.UI.Units
     /// 2단계)
     /// 계속 진행하여 XAML 파일에서 컨트롤을 사용합니다.
     ///
-    ///     <MyNamespace:DarkScrollViewer/>
+    ///     <MyNamespace:MaximizeButton/>
     ///
     /// </summary>
-    public class DarkScrollViewer : ScrollViewer
+    public class MaximizeButton : Button
     {
-        static DarkScrollViewer()
+        static MaximizeButton()
         {
-            DefaultStyleKeyProperty.OverrideMetadata(typeof(DarkScrollViewer), new FrameworkPropertyMetadata(typeof(DarkScrollViewer)));
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(MaximizeButton), new FrameworkPropertyMetadata(typeof(MaximizeButton)));
         }
     }
 }
